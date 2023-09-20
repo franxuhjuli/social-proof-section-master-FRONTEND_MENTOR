@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .card-style {
+      @apply bg-darkest-magenta rounded-lg px-8 py-9 w-full h-max md:max-lg:px-20;
+    }
+    .card-text {
+        @apply leading-[1.35rem] pt-7 2xl:min-h-[5rem] xl:min-h-[8rem] lg:min-h-[11rem];
+    }
+    .stars-bar {
+        @apply flex flex-row justify-center gap-2 lg:justify-start lg:pr-6 xl:inline-flex;
+    }
+  }
